@@ -3,6 +3,7 @@ package Decorator_Pattern;
 public class DecoratorPattern {
     public static void main(String[] args) {
 
+
         WebPage basicPage = new BasicWebPage("This is a basic web page");
 
         WebPage authorizedPage = new AuthorizedWebPageDecorator(basicPage);

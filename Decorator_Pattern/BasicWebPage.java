@@ -1,6 +1,6 @@
 package Decorator_Pattern;
 
-class BasicWebPage implements WebPage {
+public class BasicWebPage implements WebPage {
     private String content;
 
     public BasicWebPage(String content) {

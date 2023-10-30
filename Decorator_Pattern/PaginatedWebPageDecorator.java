@@ -1,6 +1,6 @@
-package Decorator_Pattern;
+package Decorator_Pattern;//package Decorator_Pattern;
 
-class PaginatedWebPageDecorator implements WebPage {
+public class PaginatedWebPageDecorator implements WebPage {
     private WebPage page;
     private int itemsPerPage;
 

@@ -1,6 +1,6 @@
 package Decorator_Pattern;
 
-class AuthorizedWebPageDecorator implements WebPage {
+public class AuthorizedWebPageDecorator implements WebPage {
     private WebPage page;
 
     public AuthorizedWebPageDecorator(WebPage page) {
